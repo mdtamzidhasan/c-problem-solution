@@ -11,11 +11,11 @@ int main()
     scanf("%d",&n);
     while(c<n)
     {
-        sstr[c]=str[p+c];
+        sstr[c]=str[p+c-1];
         c++;
     }
     sstr[c]='\0';
-    printf("\n\\The substring is : %s\\",sstr);
+    printf("\nThe substring is : %s",sstr);
 
     return 0;
 }
