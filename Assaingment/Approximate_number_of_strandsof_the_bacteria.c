@@ -26,7 +26,7 @@ int main()
 
     x = s1 * pow(m,(t-1));
 
-    printf("The Approximate number of strands of the bacteria orginally in the culture:%f",x);
+    printf("\nThe Approximate number of strands of the bacteria orginally in the culture:%f\n\n",x);
 
 
     return 0;
