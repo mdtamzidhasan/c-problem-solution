@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #define MAX_ROWS 3
 #define MAX_COLS 3
@@ -22,7 +21,7 @@ int main()
         {
            B[j][i]=A[i][j];
         }
-    }
+        }
     printf("Orginal Matrix:\n");
     for(i=0;i<MAX_ROWS;i++)
     {
@@ -30,22 +29,14 @@ int main()
         {
             printf("%d  ",A[i][j]);
         }
-        printf("\n");
-
-    }
+        printf("\n");}
     printf("Transpose Matrix:\n");
     for(i=0;i<MAX_ROWS;i++)
     {
         for(j=0;j<MAX_COLS;j++)
-
         {
            printf("%d  ",B[i][j]);
         }
-        printf("\n");
-    }
-
-
-
-
-    return 0;
+        printf("\n"); }
+   return 0;
 }

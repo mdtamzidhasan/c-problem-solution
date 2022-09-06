@@ -1,5 +1,20 @@
 #include<stdio.h>
 long long temdecimal;
+long long number(long long temdecimal);
+int main()
+{
+    long long decimal,binarynumber;
+    printf("Enter any decimal number:");
+    scanf("%lld",&decimal);
+
+    temdecimal=decimal;
+    binarynumber=number(temdecimal);
+
+    printf("\n\nDecimal number     =   %lld\n",decimal);
+    printf("Binary number      =   %lld\n\n",binarynumber);
+
+    return 0;
+}
 long long number(long long temdecimal)
 {
     long  long binary=0;
@@ -16,17 +31,4 @@ long long number(long long temdecimal)
     return binary;
 
 }
-int main()
-{
-    long long decimal,binarynumber;
-    printf("Enter any decimal number:");
-    scanf("%lld",&decimal);
 
-    temdecimal=decimal;
-    binarynumber=number(temdecimal);
-
-    printf("\n\nDecimal number     =   %lld\n",decimal);
-    printf("Binary number      =   %lld\n\n",binarynumber);
-
-    return 0;
-}
