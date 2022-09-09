@@ -29,7 +29,7 @@ int main()
         if(min>strlen(nstr[i]))
         n=i;
     }
-    printf("\nMax word :%s\n\nMin word : %s",nstr[m],nstr[n]);
+    printf("\nMax word :%s\n\nMin word : %s\n",nstr[m],nstr[n]);
 
 
 
