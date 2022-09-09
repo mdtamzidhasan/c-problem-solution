@@ -6,7 +6,9 @@
 int main()
 { int a,b,sumin,diffin;
 float c,d,sumf,difff;
+
 scanf("%d %d",&a,&b);
+
 scanf("%f %f",&c,&d);
 sumin=a+b;
 diffin=a-b;

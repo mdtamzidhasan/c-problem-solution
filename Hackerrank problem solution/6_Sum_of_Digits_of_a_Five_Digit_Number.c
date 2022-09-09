@@ -6,6 +6,7 @@
 int main() {
 
     int n,a,sum=0;
+
     scanf("%d", &n);
     //Complete the code to calculate the sum of the five digits on n.
     while(n>0)
@@ -14,6 +15,6 @@ int main() {
         sum = sum + a;
         n=n/10;
     }
-    printf("%d",sum);
+    printf("%d\n",sum);
     return 0;
 }
