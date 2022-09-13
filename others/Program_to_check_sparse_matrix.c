@@ -2,7 +2,7 @@
 int main()
 {
    int r,c,sizer,sizec,total=0;
-   printf("Enter the Matrix Size:");
+   printf("Enter the Matrix Size:\n");
    scanf("%d %d",&sizer,&sizec);
    int A[sizer][sizec];
    printf("Enter the element of this Matrix:\n");
@@ -28,7 +28,7 @@ int main()
     {
         for(c=0;c<sizec;c++)
         {
-            printf("%d",A[r][c]);
+            printf("\t%d",A[r][c]);
         }
         printf("\n");
 
