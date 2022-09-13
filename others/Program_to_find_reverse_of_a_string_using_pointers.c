@@ -13,6 +13,7 @@ int main()
         length++;
         s++;
     }
+    printf("Length = %d",length);
     s--;
     while(length>=0)
     {
