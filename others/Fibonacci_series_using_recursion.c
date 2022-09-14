@@ -12,12 +12,12 @@ else if(n==1)
 }
 int main()
 {
-    int n,i=0,c;
+     n,i=0,c;
     printf("Enter a number:");
     scanf("%d",&n);
-    for(c=0;c<=n;c++)
+    for(c=1;c<=n;c++)
     {
-        printf("%d",fibbo(i));
+        printf(" %d",fibbo(i));
         i++;
     }
 
