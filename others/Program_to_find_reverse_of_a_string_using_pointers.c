@@ -26,5 +26,6 @@ int main()
     printf("Original string :%s\n",str);
     printf("Reverse String :%s",rstr);
 
+
     return 0;
 }
