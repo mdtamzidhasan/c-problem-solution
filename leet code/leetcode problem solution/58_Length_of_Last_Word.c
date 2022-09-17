@@ -10,12 +10,4 @@ int length=strlen(s)-1;
 
     return startlen-length;
 }
-int main()
-{
-    int result;
-    char *s;
-    gets(s);
-    result=lengthOfLastWord(*s);
-    printf("%d",result);
-    return 0;
-}
+

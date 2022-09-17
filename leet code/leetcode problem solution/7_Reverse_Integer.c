@@ -18,8 +18,8 @@ if(n>INT_MAX||n<INT_MIN)
 int main()
 {
     int x,result;
-    scanf("%d",&x);
+    scanf(" %d",&x);
     result=reverse(x);
-    printf("%d",result);
+    printf(" %d",result);
 
 }
