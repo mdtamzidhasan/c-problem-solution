@@ -19,12 +19,12 @@ int main(){
     {
         if(arr[i]==value)
         {
-            printf("Index = %d",++i);
+            printf("Index = %d",i);
 
             break;
         }
-        if(i==9&&arr[i+1]!=value)
-        printf("sorry!Value is not correct.");
+        //if(i==9&&arr[i+1]!=value)
+        //printf("sorry!Value is not correct.");
     }
 
     return 0;
