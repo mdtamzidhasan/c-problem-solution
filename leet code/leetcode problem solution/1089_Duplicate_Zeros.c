@@ -27,4 +27,4 @@ for(int k=0;k<arrSize;k++)
     arr[k]=nums[k];
 }
 return arr;
-}S
+}
